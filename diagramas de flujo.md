@@ -54,6 +54,32 @@ sem| n| edad|
 ##H2 PRUEBA DE ESCRITORIO 
 
 
+|corrida|valor i|valor j|matriz|i=n?|
+|-|-|-|-|-|
+|1|0|0|M[0,0]=16|no|
+|2|1|0|M[1,0]=17|no|
+|3|2|0|M[2,0]=17|no|
+|4|3|0|M[3,0]=16|Si, entonces sig contador|
+
+|corrida|valor i|valor j|matriz|i=n?|
+|-|-|-|-|-|
+|1|0|0|M[0,1]=3|no|
+|2|1|0|M[1,1]=5|no|
+|3|2|0|M[2,1]=5|no|
+|4|3|0|M[3,1]=3|Si, entonces impr [M]|
+
+
+**Ejemplo**
+
+|Edad|Semestre|
+|-|-|
+|16|3|
+|17|5|
+|17|5|
+|16|3|
+
+
+
 **ENTRADAS**
 
 
