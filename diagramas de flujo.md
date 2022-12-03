@@ -104,6 +104,21 @@ N| E| S|
 ##H2 PRUBA DE ESCRITORIO
 
 
+|i|j|Matriz|num|i=M?|
+|-|-|-|-|-|
+|0|0|M[0,0|5|no|
+|0|1|M[0,1]|7|no|
+|0|2|M[0,2]|8|si, entonces J+1 y vuelve a empezar|
+
+**Ejemplo**
+
+|5|7|8|
+|-|-|-|
+|5|7|8|
+|5|7|8|
+
+
+
 **ENTRADAS**
 
 
