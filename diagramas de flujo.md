@@ -241,6 +241,43 @@ N| NUM|
 ##H2 *PRUEBA DE ESCRITORIO*
 
 
+Primero rellenamos 
+
+
+|corridas|i|j|M|j=m?|
+|-|-|-|-|-|
+|1|0|1|M[0,0]=0|no|
+|2|0|2|M[0,0]=0|no|
+|3|0|3|M[0,0]=0|no|
+|4|0|4|0|0|M[0,0]=0|si, entonces i+1 y j=0|
+
+Ejemplo
+
+|0|0|0|0|
+|-|-|-|-|
+|0|0|0|0|
+|0|0|0|0|
+|0|0|0|0|
+
+Ahora hacemos la secuencia y en cada ciclo acabado le sumamos 1 a j
+
+|Corridas|i|M|
+|-|-|-|
+|1|0|M[i,i=i+1|
+|2|1|M[i,i=i+1|
+|3|2|M[i,i=i+1|
+|4|3|M[i,i=i+1|
+
+
+Ejemplo
+
+|1|0|0|0|
+|-|-|-|-|
+|0|2|0|0|
+|0|0|3|0|
+|0|0|0|4|
+
+
 **ENTRADAS**
 
 
