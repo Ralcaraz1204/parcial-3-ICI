@@ -320,6 +320,36 @@ Ejemplo
  ##H2 *PRUEBA DE ESCRITORIO*
  
  
+ 
+|corridas|Matriz|Vector|j+1|
+|-|-|-|-|
+|1|M 0,0|M 0,0=V 0|j+1|
+|2|M 0,1|M 0,1=V 1|j+1|
+|3|M 0,2|M 0,2=V 2|j+1|
+
+If j=M, i+1 and j=0 y regresa el ciclo hasta que i=M
+
+Ejemplo 
+
+|1|2|3|
+|-|-|-|
+|4|5|6|
+|7|8|9|
+
+Para
+
+|1|
+|-|
+|2|
+|3|
+|4|
+|5|
+|6|
+|7|
+|8|
+|9|
+ 
+ 
  **ENTRADAS**
  
  
