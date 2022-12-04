@@ -388,6 +388,25 @@ Y 32 ALUMNOS, MENCIONE LOS ALUMNOS EN RIESGO (CON ALMENOS 1 MATERIA REPROBADA)
   ###H3 *PRUEBA DE ESCRITORIO*
   
   
+|corridas|i|j|M|j+1|
+|-|-|-|-|-|
+|1|0|0|M 0,0=Materia|j+1|
+|2|0|1|M 0,1=Materia|j+1|
+|3|0|2|M 0,2=Materia|j+1|
+|4|0|3|M 0,3=Materia|j+1|
+
+If J=M, i+1 and j=0, y vuelve a iniciar ahora con calificaciones
+
+Ejemplo 
+
+|Español|Matematicas|Historia|Geografia|
+|-|-|-|-|
+|5|4|3|9|
+|8|6|4|7|
+|9|7|7|6|
+|7|9|8|7|
+  
+  
   
   **ENTRADAS**
   
@@ -416,6 +435,23 @@ Y 32 ALUMNOS, MENCIONE LOS ALUMNOS EN RIESGO (CON ALMENOS 1 MATERIA REPROBADA)
   
   
   ##H2 *PREBA DE ECRITORIO*
+  
+  
+  |corridas|j|M|j+1|
+|-|-|-|-|
+|1|0|M j,j+sig|j+1|
+|2|1|M j,j+sig|j+1|
+|3|2|M j,j+sig|j+1|
+
+If j=M, impr Suma 
+
+J=M
+
+|corridas|j|M|j-1|
+|-|-|-|-|
+|1|0|M j,j+sig|j-1|
+|2|1|M j,j+sig|j-1|
+|3|2|M j,j+sig|j-1|
   
   
   
@@ -453,6 +489,20 @@ Y 32 ALUMNOS, MENCIONE LOS ALUMNOS EN RIESGO (CON ALMENOS 1 MATERIA REPROBADA)
 ###H3 *PRUEBA DE ESCRITORIO*
 
 
+|i|vector|i=V?|
+|-|-|-|
+|1|0|V[i]=V[i-1]+i+1|
+|2|1|V[i]=V[i-1]+i+1|
+|3|2|V[i]=V[i-1]+i+1|
+
+Ejemplo
+
+|1|
+|-|
+|3|
+|6|
+
+
 
 **ENTRADAS**
 
@@ -478,6 +528,16 @@ Y 32 ALUMNOS, MENCIONE LOS ALUMNOS EN RIESGO (CON ALMENOS 1 MATERIA REPROBADA)
 
 
 ##H2 *PRUEBA DE ESRITORIO*
+
+
+|i|j|M|Suma|
+|-|-|-|-|
+|0|0|M [i,j]>mayor?-->si, M[i,j]=V [c] and C=c+1|j+1|
+|0|1|M [i,j]>mayor?-->si, M[i,j]=V [c] and C=c+1|j+1|
+|0|2|M [i,j]>mayor?-->si, M[i,j]=V [c] and C=c+1|j+1|
+|0|3|M [i,j]>mayor?-->si, M[i,j]=V [c] and C=c+1|j+1|
+
+If J=M, J=0 and I+1 y vuelve a iniciar
 
 
 
