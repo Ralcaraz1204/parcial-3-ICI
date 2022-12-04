@@ -152,6 +152,20 @@ N| NUM|
 ###H3 *PRUEBA DE ESCRITORIO*
 
 
+|i|j|Matriz|C|i=M?|
+|-|-|-|-|-|
+|0|0|M[0,0|0|no|
+|0|1|M[0,1]|0|no|
+|0|2|M[0,2]|0|si, entonces vuelve a empezar|
+
+**Ejemplo**
+
+|1|2|3|
+|-|-|-|
+|4|5|6|
+|7|8|9|
+
+
 **ENTRADAS**
 
 
@@ -182,6 +196,20 @@ N| NUM|
 
 
 ###H3 *PRUEBA DE ESCRITORIO*
+
+
+|i|j|Matriz|C|i=M?|
+|-|-|-|-|-|
+|0|0|M[0,0|1|no|
+|0|1|M[0,1]|1|no|
+|0|2|M[0,2]|1|si, entonces C+1 y vuelve a empezar|
+
+**Ejemplo**
+
+|1|1|1|
+|-|-|-|
+|2|2|2|
+|3|3|3|
 
 
 **ENTRADAS**
@@ -278,9 +306,13 @@ Y 32 ALUMNOS, MENCIONE LOS ALUMNOS EN RIESGO (CON ALMENOS 1 MATERIA REPROBADA)
 ##H2 *ANALISIS*
 
 
-ALUMNO -> 0 |1|2|3|4|5|6|7| 
+
+             a l u m n o s 
+             
+             
+            |1|2|3|4|5|6|7| 
             |-|-|-|-|-|-|-|
-          1 | | | | | | | |
+            | | | | | | | |
           
     
   [![8.jpg](https://i.postimg.cc/ZKv7tNVC/8.jpg)](https://postimg.cc/crZMfvqS)
